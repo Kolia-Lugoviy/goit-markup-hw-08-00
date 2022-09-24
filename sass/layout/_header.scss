@@ -83,11 +83,12 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    color: #212121;
 
-&:hover, 
-&:focus {
-    color: #2196F3;
-}
+// &:hover, 
+// &:focus {
+//     color: #2196F3;
+// }
 
     }
 .nav__studio{
@@ -120,7 +121,8 @@
 
 .nav__cont{
 
-    @include font ($fs: 14px, $fw: 700, $lh: 16px);
+    @include font ($fs: 14px, $fw: 500, $lh: 16px);
+
     letter-spacing: 0.02em;
     color: #212121;
     transition: color var(--transition-duration-and-func);

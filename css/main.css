@@ -425,9 +425,7 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-  }
-  .nav__name:hover, .nav__name:focus {
-    color: #2196F3;
+    color: #212121;
   }
   .nav__studio {
     font-size: 14px;
@@ -452,7 +450,7 @@ button {
   }
   .nav__cont {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.1428571429;
     letter-spacing: 0.02em;
     color: #212121;
@@ -540,7 +538,7 @@ button {
 
 @media screen and (max-width: 767px) {
   .section-title {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero-mobile.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/hero-mobile.jpg");
   }
   .title {
     margin-left: auto;
@@ -552,12 +550,12 @@ button {
 }
 @media screen and (min-width: 768px) {
   .section-title {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero-tablet.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("..");
   }
 }
 @media screen and (min-width: 1200px) {
   .section-title {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero-desktop.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-desktop.jpg");
   }
 }
 @media screen and (max-width: 767px) {
