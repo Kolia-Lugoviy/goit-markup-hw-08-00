@@ -1,0 +1,109 @@
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.modal-close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #555555;
+    padding: 0;
+    transition: border-color var(--transition-duration-and-func);
+
+&:hover,
+&:hover{
+    background-color: #2196F3;
+
+&:hover .modal-close-btn-icon,
+&:hover .modal-close-btn-icon{
+    fill: green;
+}
+
+}
+
+}
+
+
+.modal-close-btn-icon{
+    transition: fill var(--transition-duration-and-func);
+}
+
+
+.modal-list{
+    margin-bottom: 202px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    
+    letter-spacing: 0.02em;
+
+
+
+}
+
+.modal-list-st{
+    color: #2196F3;
+}
+
+.modal-tel-email{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.modal-list-tel{  
+
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
+}
+
+.modal-list-email{
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.modal-list-social{
+    margin-top: 64px;
+
+    display: flex;
+    gap: 20px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
+}
