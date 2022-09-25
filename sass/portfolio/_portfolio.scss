@@ -81,6 +81,7 @@
     ;
     padding-right: 24px;
     ;
+
 }
 
 
@@ -173,18 +174,27 @@
 
     }
 
-// .portfolio-element-text {
-//     background: #FFFFFF;
-//     border: 1px solid #EEEEEE;
-//     border-top: none;
-//     padding-top: 20px;
-//     padding-bottom: 20px;
-//     ;
-//     padding-left: 24px;
-//     ;
-//     padding-right: 24px;
-//     ;
-// }
+.portfolio-element-text {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+    padding-left: 24px;
+    ;
+    padding-right: 24px;
+    ;
+    flex-grow: 1;
+}
+
+
+
+.portfolio-element-link{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 
 }

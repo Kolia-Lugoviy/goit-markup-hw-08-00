@@ -29,7 +29,7 @@
 @media screen and (max-width: 767px) {
     .section-title {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('/images/hero-mobile.jpg');
+    url('../images/hero-mobile.jpg');
     }
 
 .title {
@@ -47,7 +47,7 @@
 @media screen and (min-width: 768px){
 .section-title {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('./images/hero/hero-tablet.jpg');
+    url('../images/hero/hero-tablet.jpg');
 }
 }
 
