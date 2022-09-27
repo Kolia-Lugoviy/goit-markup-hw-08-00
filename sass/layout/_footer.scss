@@ -8,8 +8,14 @@
 .footer-address {
     @include font ($fs: 14px, $fw: 400, $lh: 24px);
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+
+        &:hover,
+            &:focus {
+                color: #ffffff;
+            }
+
 }
 
 .footer-address-address {
@@ -26,6 +32,11 @@
     @include font ($fs: 14px, $fw: 400, $lh: 24px);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+        color: #ffffff;
+    }
 }
 
 .footer-tel {
@@ -33,6 +44,10 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
+        &:hover,
+            &:focus {
+                color: #ffffff;
+            }
 }
 
 .footer-web-white {
@@ -41,7 +56,7 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     display: block;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -79,6 +94,10 @@
     }
 }
 
+.footer-social-list-icon {
+    fill: #ffffff;
+    transition: fill var(--transition-duration-and-func);
+}
 
 
 .footer-title-signature {
