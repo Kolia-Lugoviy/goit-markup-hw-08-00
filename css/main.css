@@ -397,7 +397,7 @@ button {
   .nav {
     display: flex;
     align-items: center;
-    margin-right: 88px;
+    margin-right: 55px;
   }
   .contact-list {
     display: flex;
@@ -894,6 +894,8 @@ button {
 }
 
 .footer-modal-form-submit {
+  width: 200px;
+  height: 50px;
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -912,6 +914,20 @@ button {
 
 .footer-button-icon {
   margin-left: 10px;
+}
+
+.footer-modal-form-input {
+  background-color: #2F303A;
+  width: 450px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding-left: 42px;
+  transition: border-color var(--transition-duration-and-func);
+}
+.footer-modal-form-input:focus {
+  outline: none;
+  border-color: #2196F3;
 }
 
 @media screen and (max-width: 767px) {
@@ -934,6 +950,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: center;
   }
   .footer {
     text-align: center;
@@ -947,6 +964,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: center;
   }
   .footer {
     display: flex;
